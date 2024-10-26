@@ -1,1 +1,0 @@
-"C:\Program Files (x86)\GPSBabel\gpsbabel.exe" -i nmea -f xxx.nmea -o gpx -F xxx.gpx

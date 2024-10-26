@@ -1,23 +1,9 @@
 # GeoDashCam
 
-This is my Sunday project to extract geotagged images from dashcam. Basically integrated video and GPS log files from a dashcam to generate images with x,y,z and time in exif.
+To convert dashcam video to images with lon&lat.
+It supports Mio dashcam data format.
 
-## Feature
+Put video and nmea file in root folder
+Run '''python convertor_nmea.py'''
+A folder will be created and images will be exported there. 
 
-- gpx_image_tool: generate geo images from gpx and video
-- gpsbabel: batch files to convert NMEA to GPX
-
-## Usage
-
-### gpx_image_tool
-```
-python gpx_image_tool.py VIDEO_FILE_PATH GPX_FILE_PATH
-```
-
-## Python version
-
-python 3.7
-
-## Progress
-
-The project is just kick-off. Development is ongoing.
